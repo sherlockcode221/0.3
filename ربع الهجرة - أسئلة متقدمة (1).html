@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ربع الهجرة - أسئلة متقدمة</title>
+<style>
+:root{--bg:#fbf7f4;--tx:#3b2a33;--card:#fff;--mut:#8a7580;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d171b;--tx:#f3e8ee;--card:#2a2227;--mut:#b9a3ad}}
+:root[data-theme="dark"]{--bg:#1d171b;--tx:#f3e8ee;--card:#2a2227;--mut:#b9a3ad}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Amiri","Traditional Arabic",Tahoma,serif;line-height:1.7}
+header{text-align:center;padding:26px 16px 8px}
+header h1{margin:0;font-size:28px;color:#c9708f}
+header p{margin:6px 0 0;color:var(--mut);font-size:15px}
+section{max-width:760px;margin:0 auto;padding:10px 14px}
+h2{font-size:19px;margin:22px 0 10px;padding:6px 14px;border-radius:12px;color:#fff;display:inline-block;background:var(--c)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{perspective:900px;height:300px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.in{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}
+.card.f .in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;padding:14px;display:flex;flex-direction:column;justify-content:center;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.1);overflow:auto}
+.front{background:var(--card);border-top:6px solid var(--c);font-size:17px;padding-top:30px}
+.num{position:absolute;top:8px;right:12px;width:26px;height:26px;border-radius:50%;background:var(--c);color:#fff;font-size:14px;display:flex;align-items:center;justify-content:center}
+.back{background:var(--c);color:#fff;transform:rotateY(180deg);font-size:15.5px;line-height:1.8}
+.hint{font-size:12px;color:var(--mut);margin-top:8px}
+.wm{position:fixed;left:0;right:0;bottom:0;text-align:center;pointer-events:none;z-index:9;padding:4px 0 calc(4px + env(safe-area-inset-bottom,0px));font-size:13px;color:#c9708f;opacity:.55;background:linear-gradient(transparent,var(--bg) 60%)}footer{text-align:center;color:var(--mut);padding:24px 16px 40px;font-size:14px}
+</style>
+</head>
+<body>
+<header><h1>🌿 ربع الهجرة · أسئلة متقدمة 🌿</h1><p>سورة النساء ١٠٠ – ١٠٤ · فكّري ثم اضغطي لتري الإجابة</p></header>
+<div class="wm">معلمة منال ناجى</div><div id="app"></div>
+<footer><b style="color:#c9708f">إعداد: معلمة منال ناجى</b><br>﴿ وكان الله عليمًا حكيمًا ﴾</footer>
+<script>
+var D=[["آية الهجرة (١٠٠)", "#c9708f", [["لماذا قُدّم ذكر «المراغم» على «السعة»؟ وماذا يكشف ذلك عن نفسية المهاجر المظلوم؟", "ابتهاج المظلوم بأن تكون دولته سببًا في رغم أنوف أعدائه أشد من ابتهاجه بسعة العيش. فالآية تخاطب شعوره بالظلم أولًا، وتبعث فيه الأمل والعزة."], ["ما دلالة قوله «فقد وقع أجره» بصيغة الماضي مع أنه لم يصل بعد؟", "تنويه عظيم بشأن الهجرة: الأجر ثبت ووجب بفضل الله ولو مات في الطريق. وفيه بعث للطمأنينة في قلوب المهاجرين وتحفيز لهم."], ["لماذا ختمت الآية بـ«غفورًا رحيمًا»؟ وما صلة ذلك بمن تأخر في قرار الهجرة؟", "المهاجر قد يمكث وقتًا حتى يتخذ القرار ويستعد، فبمجرد أن يسارع إلى الهجرة يغفر الله له ما سبق من تقصير ويرحمه برحمته الواسعة."], ["وازن بين ثواب المهاجر في هذه الآية ووعيد القاعدين قبلها. ما الرسالة التي تجمعهما؟", "القاعدون عن الهجرة لهم سوء المصير والعذاب، والمهاجر له الخير والسعة والأجر. الرسالة: الترهيب من ترك الهجرة والترغيب فيها بأسمى ألوان التحفيز."]]], ["قصر الصلاة (١٠١)", "#5b9bb5", [["ما فائدة قوله «من الصلاة» ولم يقل «أن تقصروا الصلاة»؟ (ذكر السعدي فائدتين)", "١) أن القصر محدود مضبوط بما ثبت عن النبي ﷺ وأصحابه، فلا يظن أن ركعة واحدة تجزئ. ٢) أن «من» للتبعيض، فالقصر لبعض الصلوات (الرباعية) لا كلها، فالفجر والمغرب لا تُقصران."], ["أشكل على عمر رضي الله عنه قوله «إن خفتم» مع القصر في الأمن. كيف أجابه النبي ﷺ؟ وما الدرس في ذلك؟", "قال ﷺ: «صدقة تصدق الله بها عليكم فاقبلوا صدقته». الدرس: القصر رخصة وتخفيف من الله فنقبلها، وليس مقيدًا بالخوف."], ["ما علاقة الصلاة بالمهاجر والضارب في الأرض؟ ولماذا ذُكرت في هذا الموضع؟", "الضارب في الأرض بحاجة ماسة للصلة الدائمة بربه، فهي عدّته وسلاحه وأقرب ما يعينه. وجاءت في وقتها المناسب لشدة حاجته إليها، فالمسلمون يستعينون بها في الشدائد."]]], ["صلاة الخوف (١٠٢)", "#6aa57a", [["كيف استُدل بالآية على وجوب الجماعة؟ اذكر الوجهين.", "١) أمر الله بها في هذه الحالة الشديدة، فإيجابها في الأمن أولى. ٢) سُمح في صلاة الخوف بكثير من الأفعال المبطلة في غيرها، وما ذاك إلا لتأكد وجوب الجماعة."], ["لماذا قدّم «الحذر» على «الأسلحة» في قوله «وليأخذوا حذرهم وأسلحتهم»؟", "لأن أخذ السلاح نوع من الحذر. والحذر كناية عن شدة اليقظة ودوام التنبه، وهو واجب خاصة عند انتقال الصفوف وتحركها."], ["ما الفرق بين صلاة الخوف في البقرة وصلاة الخوف في النساء؟", "البقرة: عند التحام الصفوف واشتداد القتال، فتجوز الصلاة لغير القبلة ماشيًا أو راكبًا بالإيماء. النساء: الأعداء أمامنا لكن لم تلتحم الصفوف، فتُصلى جماعة على طائفتين."], ["كيف جمعت الآية بين العبادة والأخذ بالأسباب دون أن يطغى أحدهما؟", "أمرت بالجماعة مع أخذ السلاح والحذر، فصلّت طائفة وحرست أخرى. وفيه مصلحة راجحة بالجمع بين الصلاة والجهاد، مع الإذن بوضع السلاح للمطر أو المرض مع بقاء الحذر."]]], ["الآيتان (١٠٣ – ١٠٤)", "#e0a458", [["لماذا خُصّ الأمر بالذكر بعد صلاة الخوف تحديدًا؟ (من كلام السعدي)", "لأن صلاة الخوف لا تتحقق مقاصدها كاملة لانشغال القلب والبدن، فجُبرت بالذكر. والخوف يضعف القلب والذكر من أعظم مقوياته، وهو مع الصبر والثبات سبب للفلاح والظفر."], ["ما المؤكدات في «إن الصلاة كانت على المؤمنين كتابًا موقوتًا»؟", "إنّ: للتأكيد. كان: للدوام والاستمرار. كتابًا: وصف بالمصدر يفيد التوكيد. على: تفيد الإلزام والحتمية. موقوتًا: لها وقت محدد."], ["كيف عالجت الآية ضعف الجرحى بعد أحد؟ وما الأمران اللذان قوّى الله بهما قلوبهم؟", "نهتهم عن الوهن في طلب العدو. والأمران: ١) أن ما يصيبهم من ألم يصيب أعداءهم أيضًا. ٢) أنهم يرجون من الله ما لا يرجون: ثوابه والنجاة من عقابه."], ["ما سر ختام الآية ١٠٤ بـ«عليمًا حكيمًا»؟", "لأن الله كامل العلم كامل الحكمة، ففاوت بين العباد وفرّق بينهم بعلمه وحكمته."]]]];
+var app=document.getElementById("app"),n=0;
+D.forEach(function(s){
+ var sec=document.createElement("section");sec.style.setProperty("--c",s[1]);
+ var h=document.createElement("h2");h.textContent=s[0];sec.appendChild(h);
+ var g=document.createElement("div");g.className="grid";
+ s[2].forEach(function(q){
+  n++;var c=document.createElement("div");c.className="card";
+  c.innerHTML='<div class="in"><div class="face front"><span class="num">'+n+'</span>'+q[0]+'<div class="hint">اضغطي للإجابة ↺</div></div><div class="face back">'+q[1]+'</div></div>';
+  c.onclick=function(){c.classList.toggle("f")};
+  g.appendChild(c);
+ });
+ sec.appendChild(g);app.appendChild(sec);
+});
+</script>
+</body>
+</html>
